@@ -21,6 +21,15 @@
 
 #### Basic App
 
+- Fork this repo
+- git clone the forked repository
+
+**/front-end**
+- `cd front-end`
+- `npm install`
+
+
+
 **/back-end**
 
 - `cd back-end`
