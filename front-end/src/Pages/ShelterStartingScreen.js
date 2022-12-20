@@ -20,7 +20,7 @@ export default function ShelterStartingScreen() {
     }, []);
   
     const getPets = async () => {
-      await axios.get(`https://pawster.onrender.com/pets`).then((res) => {
+      await axios.get(`https://pawsterdatabase.onrender.com/pets`).then((res) => {
         const data = res.data
         console.log(data)
         setPets(data)
@@ -28,7 +28,7 @@ export default function ShelterStartingScreen() {
     }
 
     const getShelters = async () => {
-      await axios.get(`https://pawster.onrender.com/shelters`).then((res) => {
+      await axios.get(`https://pawsterdatabase.onrender.com/shelters`).then((res) => {
         const data = res.data
         console.log(data)
         setShelterInfo(data)
@@ -36,7 +36,7 @@ export default function ShelterStartingScreen() {
     }
   
     const getUsers = async () => {
-      await axios.get(`https://pawster.onrender.com/users`).then((res) => {
+      await axios.get(`https://pawsterdatabase.onrender.com/users`).then((res) => {
         const data = res.data
         console.log(data)
         setUsersData(data)

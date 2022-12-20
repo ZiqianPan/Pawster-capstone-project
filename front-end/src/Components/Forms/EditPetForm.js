@@ -33,7 +33,7 @@ function EditPetForm() {
     });
 
     useEffect(()=>{
-        axios.get(`https://pawster.onrender.com/pets/${petId}`).then(
+        axios.get(`https://pawsterdatabase.onrender.com/pets/${petId}`).then(
             (response) => {
                 setPetInfo(response.data);
             },
@@ -43,7 +43,7 @@ function EditPetForm() {
 
 
     const updatePetInfo = async (updatedPet, petId) => {
-      await axios.post(`https://pawster.onrender.com/pets/${petId}`, updatedPet).then((res) => {
+      await axios.post(`https://pawsterdatabase.onrender.com/pets/${petId}`, updatedPet).then((res) => {
         const data = res.data
         console.log(data)
        navigate(`/shelter/${id}`);

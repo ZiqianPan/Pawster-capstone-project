@@ -50,7 +50,7 @@ export default function PetForm() {
     const navigate = useNavigate()
 
     const createPet = async (petInfo) => {
-      await axios.post(`https://pawster.onrender.com/pets`, petInfo).then((res) => {
+      await axios.post(`https://pawsterdatabase.onrender.com/pets`, petInfo).then((res) => {
         const data = res.data
         console.log(data)
        navigate(`/shelter/${id}`);
