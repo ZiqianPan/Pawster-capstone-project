@@ -1,7 +1,4 @@
-# PERN Final Project Template
-
-- select `use this template`
-- clone this repo
+# PAWSTER CAPSTONE PROJECT
 
 ## Getting Started
 
