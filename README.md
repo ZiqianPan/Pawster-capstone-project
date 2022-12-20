@@ -64,7 +64,7 @@ PG_PASSWORD=""
 - `npm run db:init`
 - `npm run db:seed`
 
-Test app locally. If it does not work locally, it will not work on Heroku.
+Test app locally.
 
 Fix bugs.
 
