@@ -17,7 +17,6 @@
 - **back-end** - everything to do with the express/postgres backend
 - **front-end** - everything to do with the create-react-app front-end
 
-### `back-end` Set Up and Deployment to Heroku
 
 #### Basic App
 
