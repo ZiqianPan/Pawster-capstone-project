@@ -9,6 +9,9 @@ We created this project to connect users with shelters in the hopes that they wi
 The main contribution I made in this project is on the explore page. I used react-tinder-card npm package to make the Tinder card swiping functionality. Where swiping Left will move the shelter animal away to show the next animal, and swiping Right on the tinder card will send the info to the database.  This changes the pet to become a liked pet so that the user can view their liked pets on the liked pet page. 
 I also worked on the styling of our home page to make it modern and make sure that the Navigation bar is dynamic (Changes depends on the page the user is currently viewing)
 
+![Screenshot 2022-12-19 at 9 47 27 PM](https://user-images.githubusercontent.com/96352580/208570064-714e4291-8a7b-49f9-b01e-d103b56de94b.png)
+
+
 
 ## Getting Started
 
