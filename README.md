@@ -1,5 +1,12 @@
 # PAWSTER CAPSTONE PROJECT
 
+We created this project to connect users with shelters in the hopes that they will foster their preferred shelter animal. The user will log into their account using Google Authentication. After clicking on the Explore button on the home page, they will be directed to a page where they can swipe right (add animals to their likes) or swipe left (view next animal). Also on this page is a button where users can click and be redirected to a page showing their liked pets and more information on each pet.
+
+## My Contribution
+The main contribution I made in this project is on the explore page. I used react-tinder-card npm package to make the Tinder card swiping functionality. Where swiping Left will move the shelter animal away to show the next animal, and swiping Right on the tinder card will send the info to the database.  This changes the pet to become a liked pet so that the user can view their liked pets on the liked pet page. 
+I also worked on the styling of our home page to make it modern and make sure that the Navigation bar is dynamic (Changes depends on the page the user is currently viewing)
+
+
 ## Getting Started
 
 ### Project Structure
