@@ -1,7 +1,7 @@
 # PAWSTER CAPSTONE PROJECT
 
 # Live Site: Pawster-capstone.netlify.app
-
+[Live Site](https//Pawster-capstone.netlify.app](https://pawster-capstone.netlify.app)
 
 We created this project to connect users with shelters in the hopes that they will foster their preferred shelter animal. The user will log into their account using Google Authentication. After clicking on the Explore button on the home page, they will be directed to a page where they can swipe right (add animals to their likes) or swipe left (view next animal). Also on this page is a button where users can click and be redirected to a page showing their liked pets and more information on each pet.
 
