@@ -46,8 +46,8 @@ export default function ShelterStartingScreen() {
     return (
         <>
                 <Routes>
-                    <Route path="/" />
-                    <Route path="/:id" element={<HomeScreen pets={pets} shelterInfo={shelterInfo}/>} />
+                    <Route path="/" element={<HomeScreen/>} />
+                    {/* <Route path="/:id" element={<HomeScreen pets={pets} shelterInfo={shelterInfo}/>} /> */}
                     <Route path="/:id/new" element={ <PetForm />} />
                     <Route path="/:id/edit/:petId" element={ <EditPetForm />} />
                     <Route path="/:id/show/:petId" element={ <ShowPage pets={pets} usersData={usersData}/>} />

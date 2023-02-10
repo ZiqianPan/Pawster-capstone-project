@@ -62,6 +62,7 @@ export default function NavBar() {
 
   if (currentWindow === "/") {
     return (
+      //if the current window is the HOMEPAGE
       // <div className="NavBar-overall-Div">
       <div className="custom-navbar">
         {/* Logic to return to the proper home path, whether it is '/user' or 'shelter'*/}
@@ -94,7 +95,7 @@ export default function NavBar() {
               height="45px"
               style={{ marginRight: "20px", borderRadius: "25px" }}
               alt='user-img'
-              src={user?.photoURL}
+              src={user.photoURL}
             />
           ) : null}
           {/* {!user?.displayName ? null : (
@@ -152,7 +153,7 @@ export default function NavBar() {
               width="45px"
               height="45px"
               style={{ marginRight: "20px", borderRadius: "25px" }}
-              src={user?.photoURL}
+              src={user.photoURL}
               alt='user-img-2'
             />
           ) : null}
