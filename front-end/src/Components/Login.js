@@ -27,7 +27,7 @@ export default function Login() {
 
   useEffect(() => {
     if (user) {
-      console.log(user)
+      // console.log(user)
       navigate("/account")
     } 
     // else {

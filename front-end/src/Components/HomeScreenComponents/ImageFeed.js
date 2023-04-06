@@ -23,7 +23,7 @@ export default function QuiltedImageList() {
     alert("You will be redirected to log in");
     try {
       await googleSignIn();
-      console.log(user);
+      // console.log(user);
       navigate("/user/1/explore");
     } catch (error) {
       console.log(error);

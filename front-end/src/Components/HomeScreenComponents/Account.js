@@ -11,7 +11,7 @@ function Account() {
   const handleSignOut = async () => {
     try {
       await logOut();
-      console.log(user);
+      // console.log(user);
       alert("You are now logged out");
     } catch (err) {
       console.log(err);

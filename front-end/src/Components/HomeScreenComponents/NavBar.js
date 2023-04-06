@@ -31,7 +31,7 @@ export default function NavBar() {
   const handleSignOut = async () => {
     try {
       await logOut();
-      console.log(user);
+      // console.log(user);
       navigate("/");
       alert("you have logged out");
     } catch (err) {
@@ -42,7 +42,7 @@ export default function NavBar() {
     alert("You will be redirected to log in");
     try {
       await googleSignIn();
-      console.log(user);
+      // console.log(user);
       navigate("/user/1/explore");
     } catch (error) {
       console.log(error);
